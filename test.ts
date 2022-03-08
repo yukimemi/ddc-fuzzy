@@ -1,7 +1,7 @@
 import * as Matcher from "./denops/@ddc-filters/matcher_fuzzy.ts";
 import * as Sorter from "./denops/@ddc-filters/sorter_fuzzy.ts";
 import * as Converter from "./denops/@ddc-filters/converter_fuzzy.ts";
-import { assertEquals } from "https://lib.deno.dev/std@0.106.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.106.0/testing/asserts.ts";
 
 const matcher = new Matcher.Filter();
 const sorter = new Sorter.Filter();
